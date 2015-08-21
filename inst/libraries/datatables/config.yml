@@ -6,7 +6,7 @@ datatables:
   jshead: [js/jquery.js, js/jquery.dataTables.js]
   cdn:
     jshead: 
-      - "//code.jquery.com/jquery-1.10.2.min.js"
-      - "//ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"
+      - "http://code.jquery.com/jquery-1.10.2.min.js"
+      - "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"
     css:
-      - "//ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"
+      - "http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/css/jquery.dataTables.css"
