@@ -1,6 +1,6 @@
 datatables:
   cdn:
     jshead:
-      - "https://cdn.datatables.net/r/dt/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.8,b-1.0.1,b-html5-1.0.1,cr-1.2.0,fc-3.1.0,fh-3.0.0,r-1.0.7,sc-1.3.0/datatables.js"
+      - "https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.8,b-1.0.1,b-html5-1.0.1,fc-3.1.0,fh-3.0.0,r-1.0.7,sc-1.3.0/datatables.js"
     css:
-      - "https://cdn.datatables.net/r/dt/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.8,b-1.0.1,b-html5-1.0.1,cr-1.2.0,fc-3.1.0,fh-3.0.0,r-1.0.7,sc-1.3.0/datatables.css"
+      - "https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.8,b-1.0.1,b-html5-1.0.1,fc-3.1.0,fh-3.0.0,r-1.0.7,sc-1.3.0/datatables.css"
