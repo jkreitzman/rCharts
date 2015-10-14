@@ -21,6 +21,9 @@ Highcharts <- setRefClass("Highcharts", contains = "rCharts", methods = list(
     chart = function(..., replace = T){
         params$chart <<- setSpec(params$chart, ..., replace = replace)
     },
+    colorAxis = function(..., replace = T) {
+        params$colorAxis <<- setSpec(params$colorAxis, ..., replace = replace)
+    },
     colors = function(..., replace = T) {
         args <- unlist(list(...))
         
