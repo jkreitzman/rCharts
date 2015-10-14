@@ -33,6 +33,9 @@ Highcharts <- setRefClass("Highcharts", contains = "rCharts", methods = list(
     credits = function(..., replace = T){
         params$credits <<- setSpec(params$credits, ..., replace = replace)
     },
+    drilldown = function(..., replace = T) {
+        params$drilldown <<- setSpec(params$drilldown, ..., replace = replace)
+    },
     exporting = function(..., replace = T){
         params$exporting <<- setSpec(params$exporting, ..., replace = replace)
     },
