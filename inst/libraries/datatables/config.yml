@@ -1,5 +1,5 @@
 datatables:
-  jshead: js/jquery.dataTables.min.js
+  jshead: [js/jquery.js, js/jquery.dataTables.min.js]
   css: css/jquery.dataTables.css
   cdn:
     jshead:
