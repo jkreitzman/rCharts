@@ -19,20 +19,20 @@ Datatables = setRefClass('Datatables', contains = 'rCharts', methods = list(
 
 make_table <- function(df){
   nms = names(df)
-  nms = setNames(nms, rep('sTitle', length(nms)))
+  nms = setNames(nms, rep('Title', length(nms)))
   l = apply(setNames(df, NULL), 1, as.list)
   names(l) = NULL
-  list(aaData = l, aoColumns = nms)
+  list(Data = l, Columns = nms)
 }
 
 
 make_table2 <- function(df_){
   nms = names(df_)
   nms = lapply(nms, function(nm){
-    list(sTitle = nm)
+    list(Title = nm)
   })
   list(
-    aaData = toJSONArray2(df_, json = F, names = F),
-    aoColumns = as.list(nms)
+    Data = toJSONArray2(df_, json = F, names = F),
+    Columns = as.list(nms)
   )
 }
