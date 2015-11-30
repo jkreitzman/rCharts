@@ -2,6 +2,7 @@
     (function($){
         $(function () {
             var chart = new Highcharts.Chart({{{ chartParams }}});
+            Highcharts.setOptions({lang: { thousandsSep:',' } })
         });
     })(jQuery);
 </script>
