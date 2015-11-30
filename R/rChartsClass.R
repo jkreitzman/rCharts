@@ -72,7 +72,7 @@ rCharts = setRefClass('rCharts', list(params = 'list', lib = 'character',
   print = function(chartId = NULL, include_assets = F, ...){
     params$dom <<- chartId %||% params$dom
     assetHTML <- ifelse(include_assets, paste(
-      paste(add_lib_assets(lib, ...), collapse = '\n'), '\n',
+      paste(add_lib_assets(lib, html_assets, ...), collapse = '\n'), '\n',
       add_style_(params$width, params$height), 
       collapse = '\n'
     ), "")
